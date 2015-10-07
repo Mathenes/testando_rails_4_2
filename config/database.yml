@@ -18,5 +18,5 @@ test:
   database: testando_rails_test
 
 production:
-  <<: *default
-  database: testando_rails_production
+  encoding: utf8
+  pool: 5
